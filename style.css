@@ -1,0 +1,91 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    background-color: rgb(73, 72, 72);
+}
+
+#header h1 {
+   text-align: center;
+    color: rgb(219, 70, 242);
+    margin: 20px;
+}
+
+#header p {
+    color: white;
+    margin: 30px;
+    text-align: center;
+}
+#mainGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box5 box6"
+    "box4 box5 box6";
+}
+
+#box1 {
+    grid-area: box1;
+}
+
+#box2 {
+    grid-area: box2;
+}
+
+#box3 {
+    grid-area: box3;
+    
+}
+
+#box4 {
+    grid-area: box4;
+}
+
+#box5 {
+    grid-area: box5;
+}
+
+#box6 {
+    grid-area: box6;
+}
+
+.all-boxes {
+    border-style: dashed;
+    border-color: white;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.all-boxes h2 {
+    color:rgb(219, 70, 242);
+    border: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: -35px;
+    background-color:rgb(73, 72, 72);
+    position: relative;
+    
+}
+
+.all-boxes {
+    color: rgb(219, 70, 242);
+    font-size: 12px;
+}
+
+.example-css {
+    color: white;
+    font-family: monospace;
+    background-color:rgb(181, 78, 181);
+    background-image: linear-gradient(rgb(80, 57, 80), rgb(181, 78, 181));
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

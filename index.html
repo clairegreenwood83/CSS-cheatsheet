@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS Snippet Cheatsheet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+<body>
+    <header id="header">
+        <h1> CSS Snippet Cheatsheet</h1>
+        <p> Ever have trouble recalling the exact syntax for your favourite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+
+    <section id="mainGrid">
+        <div id="box1" class="all-boxes">
+            <h2>Flexbox Row</h2>
+            <p>Use these three properties to create a Flexbox row layout.</p>
+            <p class="example-css">.row { <br>
+                display: flex; <br>
+                flex-direction: row <br>
+                flex-wrap: wrap <br>
+                }
+            </p>
+        </div>
+
+        <div id="box2" class="all-boxes">
+            <h2>Flexbox Column</h2>
+            <p>Use this to create a Flexbox column layout</p>
+            <p class="example-css">.column { <br>
+                display: flex; <br>
+                flex-direction: column; <br>
+               } <br>
+            </p>
+        </div>
+
+        <div id="box3" class="all-boxes">
+            <h2>CSS Grid Layout</h2>
+            <p>Build a 12-column layout using CSS grid</p>
+            <p class="example-css">.grid { <br>
+                display: grid; <br>
+                width: 100%; <br>
+                grid-template-columns: repeat(12, 1fr); <br>
+               }
+            </p>
+        </div>
+
+        <div id="box4" class="all-boxes">
+            <h2>Linear Gradients</h2>
+            <p>This will create a background linear gradient from top to bottom.</p>
+            <p class="example-css">.linear-gradient-background {<br>
+                 backgroun-image: linear-<br>
+                gradient(<br>
+                    rgba(232, 102, 236, 0.3) )%,<br>
+                    rgba(232, 102, 236, 0.6) 100%<br>
+                    );<br>
+                }</p>
+        </div>
+
+        <div id="box5" class="all-boxes">
+            <h2>Box Transition Glow</h2>
+            <p>Use transition and box shadows to glow on hover.</p>
+            <p class="example-css">.code-card .card-header {<br>
+                 border-radius: 8px;<br>
+                 tranasition: all 0.5s ease-in- <br>
+                 out;<br>
+            }<br>
+            <br>
+            .code-card:hover,<br>
+            .code-card:hover .card-header <br>
+            box-shadow: inset 0px 0px 8px<br>
+            rgba(232, 102, 236, 1), 0 0 15px <br>
+            rgba(232, 102, 236, 1);<br>
+            }
+            </p>
+        </div>
+
+        <div id="box6" class="all-boxes">
+            <h2> Overlay Card with Title</h2>
+            <p>Use position properties and negative margins to rasie elements higher than their natural starting point.</p>
+            <p class="example-css">.card-header {<br>
+                position: relative;<br>
+                margin-top: -20px;<br>
+                }
+            </p>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
